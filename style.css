@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1, h2, p {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.header {
+    background-image:url("https://farm5.staticflickr.com/4400/36319067842_d44a33972b_b.jpg");
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+    size: contain;
+    background-repeat: no-repeat;
+}
+
+.transparency {
+    background-color: rgba(16, 36, 114, 0.66);
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.transparency ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 2vh;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 1);
+    text-align: right;
+}
+
+li {
+    float: right-side;
+    display: inline;
+}
+
+li a {
+    display: inline;
+    position: relative;
+    text-align: right;
+    top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    border-bottom: 4px solid rgb(220, 94, 94);
+}
+
+.transparency h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    text-transform: uppercase;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 2px #000;
+    font-weight: lighter;
+    top: 352px;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.transparency h1 {
+    font-family: 'Century Gothic', sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    text-shadow: 1px 1px 2px #000;
+    top: 350px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.transparency h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    text-transform: uppercase;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 2px #000;
+    font-weight: lighter;
+    top: 370px;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+}
