@@ -9,8 +9,8 @@ h1, h2, p {
 }
 
 .header {
-    background-image:url("https://farm5.staticflickr.com/4400/36319067842_d44a33972b_b.jpg");
-    height: 600px;
+    background-image:url("https://farm5.staticflickr.com/4331/37085357745_b1ab698dc0_b.jpg");
+    height: 800px;
     background-position: center center;
     background-size: cover;
     size: contain;
@@ -18,10 +18,10 @@ h1, h2, p {
 }
 
 .transparency {
-    background-color: rgba(16, 36, 114, 0.66);
+    background-color: rgba(8, 48, 101, 0.5);
     background-position: center center;
     background-size: cover;
-    height: 600px;
+    height: 800px;
 }
 
 .transparency ul {
@@ -97,4 +97,16 @@ li a:hover {
 .nav {
     height: 50px;
     width: 100%;
+}
+
+.about {
+    background-color: rgba(108, 193, 114, 0.15);
+}
+
+.about h2 {
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(220, 94, 94);
+    text-align: left;
+    
 }
